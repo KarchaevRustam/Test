@@ -6,6 +6,6 @@
 SELECT P.ProductName, C.CategoryName
 FROM Products P
 LEFT JOIN ProductCategories PC
-	ON P.Id = PC.ProductId
+ON P.Id = PC.ProductId
 LEFT JOIN Categories C
-	ON PC.CategoryId = C.Id;
+ON PC.CategoryId = C.Id;
